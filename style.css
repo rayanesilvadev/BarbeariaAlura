@@ -37,8 +37,9 @@ nav a:hover{
 	text-decoration: underline;
 }
 
-main{
-   
+.formulario{
+    width: 940px;
+    margin: 0 auto
 }
 
 form{

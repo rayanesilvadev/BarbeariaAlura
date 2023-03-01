@@ -40,7 +40,7 @@
                 <label for="mensagem">Mensagem</label>
                 <textarea cols="70" rows="10" id="mensagem" class="input_padrao" required></textarea>
 
-                <fieldset>
+                <fieldset class="meio-contato">
                     <legend>Como prefere nosso contato?</legend>
 
                     <label for="radio-email"><input type="radio" name="contato" value="Email" id="radio-email">Email</label>
@@ -50,7 +50,7 @@
                     <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
                 </fieldset>
 
-                <fieldset>
+                <fieldset class="horario-contato">
                     <legend>Qual horário prefere ser atendido?</legend>
                         <select>
                             <option>Manhã</option>
@@ -65,28 +65,31 @@
                 
             </form>
 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Dia</th>
-                        <th>Horário</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Segunda</td>
-                        <td>8h - 20h</td>
-                    </tr>
-                    <tr>
-                        <td>Quarta</td>
-                        <td>8h - 20h</td>
-                    </tr>
-                    <tr>
-                        <td>Sexta</td>
-                        <td>8h - 20h</td>
-                    </tr>
-                </tbody>
-            </table>
+            <p>Horário de atendimento</p>
+            <div class="horario">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>8h - 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                            <td>8h - 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                            <td>8h - 20h</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </main>
         
         <footer>

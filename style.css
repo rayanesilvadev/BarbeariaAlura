@@ -205,6 +205,61 @@ footer{
 	margin: 20px 0;
 }
 
+.servicos{
+    text-align: center;
+    font-size: 2em;
+    margin: 1em 0 1em;
+    padding: 1em;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover{
+	border-color: #ff4646;
+    transition: 400ms;
+    box-shadow: 0 10px 10px 0 #000000;
+    
+}
+
+.produtos li:active{
+	border-color: #001aff;
+}
+
+.produtos li:hover h2{
+	font-size: 30px;
+}
+
+.produtos h2{
+	font-size: 28px;
+	font-weight: bolder;
+}
+
+.produto-descricao{
+	font-size: 18px;
+}
+
+.produto-preco{
+	font-size: 22px;
+	font-weight: bolder;
+	margin-top : 10px;
+}
+
 @media screen and (max-width: 480px){
 
     header, footer{
@@ -262,5 +317,24 @@ footer{
         width: 100%;
         margin: 15px 0 0.5em;
     }
-    
+
+    .servicos{
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 1em;
+    }
+
+    .produtos{
+        width: auto;
+        padding: 0;
+    }
+
+    .produtos li {
+        display:table;
+        align-items: center;
+        margin: 2.5em;
+ 
+    }
+  
 }

@@ -227,7 +227,7 @@ footer{
 
     .video{
         align-items: center;
-        width: 75%;
+        width: 80%;
     }
 
     .mapa, .beneficios{
@@ -235,7 +235,9 @@ footer{
     }
 
     .titulo-principal{
-        margin: 0 0 0.5em;
+        margin: 0 0 1em;
+        font-size: 1.7em;
+        font-weight: bold;
     }
 
     h1{
@@ -245,6 +247,16 @@ footer{
     nav{
         position: static;
     }
+
+    nav a{
+        font-size: 20px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
 
     .lista-beneficios, .imagem-beneficios{
         width: 100%;
